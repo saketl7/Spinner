@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="368dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spTest2">
+
+        <TextView
+            android:id="@+id/txView1"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:gravity="center_horizontal"
+            android:text="@string/textview"
+            android:textAlignment="center"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/txView2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/textview2"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="289dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/movies" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spTest2"
+        android:layout_width="371dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="168dp"
+        android:background="#00FFFFFF"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spTest"
+        android:layout_width="369dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="76dp"
+        android:background="#00000000"
+        android:fadeScrollbars="true"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="378dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Welcome to the Movie World"
+        android:textColor="#673AB7"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
