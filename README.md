@@ -1,2 +1,2 @@
 # Spinner
-![Spinner](demo/demo.gif)
+![Spinner](Demo/demo.gif)
